@@ -7,6 +7,7 @@ OpenMPI is a popular implementation of a message passing interface, here used on
 # Results
 Scaling was overall close to linear. There is an initial cost to distributing data across tasks and synchronizing computational loads, but comparing N=2 to N=32 sees a linear increase in performance. See attached plots
 
+![alt text][https://github.com/nelsontodd/Parallelized_Digital_Convolution/output/nodes_speeds/png]
 ### Example output (Ran with 8 nodes)| 
 
 Item | Result
