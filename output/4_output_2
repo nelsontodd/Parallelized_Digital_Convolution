@@ -1,0 +1,25 @@
+TACC:  Starting up job 1347909 
+TACC:  Starting parallel tasks... 
+Execution summary.
+Num elements in an array col                   : 16386
+Num inner elements in an array col             : 16384
+Num elements in an array                       : 268500996
+Num inner elements in an array                 : 268435456
+Num bytes used by an array (GB)                : 1.074004
+Num elements below threshold in array y        : 2897
+Fraction of elements below threshold in array y: 0.000011
+Num elements below threshold in array x        : 26845513
+Fraction of elements below threshold in array x: 0.099983
+Threshold value:                               : 0.100000
+
+Timing summary (Seconds).
+WALL: Alloc-X :  0.000055
+WALL: Alloc-Y :  0.000412
+WALL: Init-X  :  18.248335
+WALL: Smooth-Y:  0.816261
+WALL: Count-Y :  0.040027
+WALL: Count-X :  0.038802
+
+OMP information.
+Num threads: 1
+TACC:  Shutdown complete. Exiting. 
