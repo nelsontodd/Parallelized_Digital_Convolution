@@ -5,7 +5,7 @@ A common operation in scientific computing is digital convolution, by which each
 OpenMPI is a popular implementation of a message passing interface, here used on TACC to increase performance of our digital convolution algorithm.
 
 # Results
-Scaling was overall close to linear. There is an initial cost to distributing data across tasks and synchronizing computational loads, but comparing N=2 to N=32 sees a linear increase in performance. See attached plots
+It is clear from the plot that there is a *huge* initial cost to distributing data across tasks and synchronizing computational loads. This being said, the scaling is actually quite good if we disregard this. Comparing N=2 to N=32 sees very close to a linear increase in performance. This scaling is actually quite good, but the initial computational cost is very high (as seen in the below plot). The best setup is N=32 nodes.
 
 ![alt text](https://github.com/nelsontodd/Parallelized_Digital_Convolution/blob/master/output/nodes_speeds.png)
 ### Example output (Ran with 8 nodes)| 
