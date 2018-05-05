@@ -9,21 +9,35 @@ Scaling was overall close to linear. There is an initial cost to distributing da
 
 ### Example output (Ran with 8 nodes): 
 Num elements in an array col                   : 16386
+
 Num inner elements in an array col             : 16384
+
 Num elements in an array                       : 268500996
+
 Num inner elements in an array                 : 268435456
+
 Num bytes used by an array (GB)                : 1.074004
+
 Num elements below threshold in array y        : 2990
+
 Fraction of elements below threshold in array y: 0.000011
+
 Num elements below threshold in array x        : 26849775
+
 Fraction of elements below threshold in array x: 0.099999
+
 Threshold value:                               : 0.100000
 
 Timing summary (Seconds).
 WALL: Alloc-X :  0.000054
+
 WALL: Alloc-Y :  0.000390
+
 WALL: Init-X  :  18.261909
+
 WALL: Smooth-Y:  0.409883
+
 WALL: Count-Y :  0.021454
+
 WALL: Count-X :  0.020173
 
